@@ -36,3 +36,8 @@
 
 /app/assets/builds/*
 !/app/assets/builds/.keep
+# Ignorer le fichier de clés Google
+config/credentials.json
+# Dotenv
+.env
+.env.*

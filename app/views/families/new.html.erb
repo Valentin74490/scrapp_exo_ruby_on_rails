@@ -1,0 +1,15 @@
+<%= form_with(model: @family, local: true) do |f| %>
+  <div>
+    <%= f.label :prénom, "Prénom" %>
+    <%= f.text_field :prénom %>
+  </div>
+  <div>
+    <%= f.label :nom, "Nom" %>
+    <%= f.text_field :nom %>
+  </div>
+  <div>
+    <%= f.label :age, "Âge" %>
+    <%= f.number_field :age %>
+  </div>
+  <%= f.submit "Créer" %>
+<% end %>
