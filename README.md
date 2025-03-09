@@ -1,8 +1,5 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
+l'objectif de ce code est de comprendre le parsing et de faire du scrappe pour s'entrainer (je me concentre sur la base d'un cours du Wagon)
 Things you may want to cover:
 
 * Ruby version
